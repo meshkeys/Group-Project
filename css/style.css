@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Jomolhari|Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto Slab', serif;
+}
+
+header {
+    background: black;
+    opacity: 0.9;
+    height: 100vh;
+}
+
+video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+.nav {
+    height: 100px;
+}
+
+.logo {
+    margin: 40px 60px;
+}
+
+.menu {
+    float: right;
+    list-style: none;
+    margin: 40px;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.colored {
+    background: linear-gradient(to right bottom, rgb(229, 178, 13), rgb(255, 195, 0));
+    padding: 8px;
+}
+
+.intro-text {
+    width: 100%;
+    max-width: 680px;
+    margin: 4em 0 0 7em;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.brands-logo {
+    margin-top: 10em;
+    padding: 1em 0 3em 3em;
+}
+
+.our-expertise {
+    padding: 10em 0 2em 0;
+}
+
+.proj {
+    margin-top: 2em;
+}
+
+.customers {
+    margin-top: 10em;
+}
+
+.customers h5 {
+    text-align: center;
+}
+
+.customers-words {
+    margin-top: 5em;
+}
+
+.backward-arrow, .forward-arrow {
+    cursor: pointer;
+}
