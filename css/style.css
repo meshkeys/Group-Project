@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 1.4rem;
+}
+.values{
+    background-color: rgb(241, 241, 241);
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.values h2{
+    margin-top: 0px;
+    font-family: Roboto;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    color: rgb(142, 128, 128);
+    font: bold;
+}
+.values h3{
+    margin-top: 0px;
+    font-family: Roboto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    margin-left: auto;
+    font-size: 5rem;
+    color: rgb(17, 17, 17);
+}
+.valSpan{
+    color: #ffc300 !important;
+}
+.value-1, .value-2, .value-3 {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    max-width: 1015px;
+    margin-bottom: 60px;
+    padding-left: 80px;
+}
+.imgarea-1, .imgarea-2, .imgarea-3{
+    position: absolute;
+}
+.imgarea-1, .imgarea-3{
+    margin-left:280px;
+}
+.textarea-1, .textarea-3{
+    margin-top: 60px;
+}
+.imgarea-2{
+    margin-top: 60px;
+}
+.textarea-2{
+    margin-left: 565px;
+}
+
+.imgarea-1 img, .imgarea-2 img, .imgarea-3 img{
+    width: 735px !important;
+    height: 450px !important;
+    
+}
+.textarea-1, .textarea-2, .textarea-3{
+    width: 450px;
+    height: 450px;
+    padding: 20px 60px 60px 60px;
+    background: linear-gradient(to right bottom, rgb(64, 54, 54), rgb(17, 17, 17));
+    position: absolute;
+}  
+.textarea-1 h3, .textarea-2 h3, .textarea-3 h3{
+    color: rgb(255, 195, 0);
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-size: 5rem;
+    margin: 0px 0px 10px;
+}
+.textarea-1 h4, .textarea-2 h4, .textarea-3 h4{
+    font-family: Roboto;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 20px;
+}
+.textarea-1 p, .textarea-2 p, .textarea-3 p{
+    font-family: Roboto;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    margin: 0px 0px 20px;
+}
+.ourSolution{
+    height: 705.188px;
+    background-color: rgb(63, 62, 62);
+    background-image: url('../images/snip.PNG');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+    padding: 140px;
+}
+/* .solutionBg{
+    background-image: url('../img/snip.PNG');
+    background-repeat: no-repeat;
+} */
+.solution h3{
+    font-family: Roboto;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    color: rgb(142, 128, 128);
+    text-align: left;
+    font-weight: bold;
+}
+.solution p{
+    font-family: Roboto;
+    font-size: 1.8rem;
+    line-height: 1.7;
+    color: rgb(255, 255, 255);
+    margin-top: 20px !important;
+    margin: 0px 0px 40px;
+
+}
+.btn-1{
+    text-align: center;
+}
+.btn-one{
+    color: whitesmoke !important;
+    background-color: rgb(17, 17, 17);
+    padding: 25px !important;
+    margin-top: 40px;
+}
+.btn-two{
+    color: whitesmoke !important;
+    background: #ff00cc !important; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff00cc, #333399) !important; /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff00cc, #333399) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 25px !important;
+    /* font-weight: bold; */
+    margin-top: 40px;
+}
+.fa-arrow-right{
+    padding-left: 15px;
+}
+.icons{
+    padding-top: 20px;
+}
+.icon-1,.icon-2,.icon-3,.icon-4,.icon-5,.icon-6,.icon-7,.icon-8,.icon-9,.icon-10,.icon-11{
+   margin-left: 10px;
+   display: inline;
+   padding-bottom: 35px;
+   font-size: 3rem;
+}
+
